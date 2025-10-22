@@ -1,0 +1,64 @@
+[
+    {
+        "name": "iitd",
+        "path": "/events/iitd.png",
+        "id": 0
+    },
+    {
+        "name": "ism",
+        "path": "/events/ism.png",
+        "id": 1
+    },
+    {
+        "name": "columbiauniversity",
+        "path": "/events/columbiauniversity.png",
+        "id": 2
+    },
+    {
+        "name": "iisc",
+        "path": "/events/iisc.png",
+        "id": 3
+    },
+    {
+        "name": "bits",
+        "path": "/events/bits.png",
+        "id": 4
+    },
+    {
+        "name": "christ",
+        "path": "/events/christ.png",
+        "id": 5
+    },
+    {
+        "name": "ism",
+        "path": "/events/ism.png",
+        "id": 6
+    },
+    {
+        "name": "iitkgp",
+        "path": "/events/iitkgp.png",
+        "id": 7
+    },
+    {
+        "name": "iitd",
+        "path": "/events/iitd.png",
+        "id": 8
+    },
+    {
+        "name": "qapp",
+        "path": "/events/qapp.png",
+        "id": 9
+    },
+    {
+        "name": "bse",
+        "path": "/events/bse.png",
+        "id": 10
+    },
+    {
+        "name": "nittirchy",
+        "path": "/events/nittirchy.png",
+        "id": 11
+    }
+    
+]
+

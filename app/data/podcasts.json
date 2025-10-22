@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Anybody Can Do Math – A Primer for Quantitative Finance, Data Science & Machine Learning",
+    "description" : "Introduction – Importance of math in Quant Finance, Data Science & ML. Core Math Concepts – Linear Algebra, Probability, Statistics & Calculus in finance. Stochastic Processes & ML Applications – Brownian motion, regression & optimization in trading. Q&A & Next Steps – Interactive discussion and resources to dive deeper into Quant Finance. Enroll for \"Anybody Can Do Math – A Primer for Quantitative Finance, Data Science & Machine Learning\" Course - https://ircihy.courses.store/640409?u... This webinar is designed for individuals looking to break into Quantitative Finance, Data Science, and Machine Learning, regardless of their academic background. If you're from a Non-STEM field and want to build a strong foundation in the essential mathematical concepts used in finance, this session is for you. It is particularly beneficial for professionals and students pursuing CFA, FRM, CQF, and CAIA who wish to strengthen their quantitative skills for trading, risk management, and financial modeling. Whether you're a finance enthusiast, an investment professional, or someone transitioning into quantitative roles, this primer will help you get started with confidence. About the Speakers: Dr. Nisha Godani is an assistant professor at Medicaps University, Indore, with a PhD in mathematics from Dayalbagh Educational Institute. She specializes in Non-Manifold Topologies on Lorentz Manifolds and has published 50+ research papers. She has qualified for the NET and GATE examinations with All India rank 40 and 90 respectively. With 8+ years of teaching experience, she has received multiple awards for her contributions to research and education. Parth Bhanushali, CQF – holds the Certificate in Quantitative Finance (CQF) and has a strong foundation in both traditional and quantitative finance. A commerce graduate and CFA Level 2 cleared, his journey into quantitative finance began with the CQF, where he gained a strong foundation in mathematical and computational techniques for finance.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Ju1dukSdZhw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC7aOIGznnry_Hj3OoJCZdPTuXkKQ",
+    "playLink": "https://www.youtube.com/watch?v=Ju1dukSdZhw",
+    "type": "seminar"
+  },
+  {
+    "id": 2,
+    "title": "Building a Hedge Fund from Scratch: Christina Qi's Journey from Dorm Room to trading Billions",
+    "description": "In this episode of Quant Insider, Tribhuvan Bisen sits down with Christina Qi, the founder of Domeyard LP and CEO of Databento, to discuss her incredible journey in the world of high-frequency trading (HFT) and data innovation. Christina's story is one of resilience, innovation, and entrepreneurship. From building Domeyard, a successful HFT firm, from her dorm room to trading billions daily, to leading Databento, a data services company revolutionizing access to financial data for hedge funds and fintech startups, Christina shares valuable lessons learned along the way. In this episode, we dive into: Her early challenges and how her background in piano led to entrepreneurship; The founding and scaling of Domeyard and the highs and lows of running an HFT firm; The evolution of financial data and how Databento is reshaping the data landscape; Insights on fundraising, networking, and navigating the finance and tech industries; The changing role of women in finance and technology, and much more! Whether you're a seasoned quant or just starting your journey, Christina’s candid advice and industry insights are not to be missed.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/yAC4S28ly_Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiXcfszpgi76fZ3QE_rvUMYS_ZXQ",
+    "playLink": "https://www.youtube.com/watch?v=yAC4S28ly_Y",
+    "type": "podcast"
+  },
+  {
+    "id": 3,
+    "title": "How to win Quant Trading Competitions with 'International Quant Championship' Rank 1 - Vaibhav Gupta",
+    "description": "Join us for an exclusive free webinar, “Cracking the Code of Quant Trading Competitions with a Global Champion,” featuring Vaibhav Gupta —an IIT Delhi student who achieved the Global Rank 1 at WorldQuant’s IQC’23 and won Quant Quest. As the Founder of ARIES (Artificial Intelligence Society) at IIT Delhi, Vaibhav brings a wealth of experience and insights into the world of quantitative trading and machine learning. In this session, Vaibhav Gupta will: Share his journey to becoming a global champion; Discuss the strategies for quant trading competitions; Provide actionable tips for excelling in these fast-paced competitions.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Up1YY52GrT8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCBsiERdSBsyB6FmnqSF0cn4uBqSA",
+    "playLink": "https://www.youtube.com/watch?v=Up1YY52GrT8",
+    "type": "seminar"
+  },
+  {
+    "id": 4,
+    "title": "Low Latency Programming and Hight Frequency Trading ft. 'Quant of the Year 2023' - Paul Bilokon PhD",
+    "description": "In this in-depth video, Dr. Paul Bilokon, Quant of the Year 2023, an expert in low-latency programming and high-frequency trading (HFT), takes you on a comprehensive journey through the core techniques and strategies essential for achieving ultra-low latency in high-performance trading systems. Topics Covered: The Microsecond in HFT: Understand the significance of the microsecond and how optimizing at this level can drastically impact trading performance; Kernel Bypass: Learn how bypassing the Linux kernel can enhance network card performance and reduce latency, critical for real-time trading environments; Branch Prediction: Discover how branch prediction techniques in CPU design help minimize delays in processing, and how this is applied in low-latency trading systems; The Curiously Recurring Template Pattern (CRTP): Dive into advanced C++ programming techniques like CRTP that optimize virtual function dispatch, reducing runtime overhead in trading algorithms; Microbenchmarking and Cache Warming: Gain insights into how microbenchmarking is used to measure small performance improvements, and the importance of cache warming to ensure optimal data access speeds; Multithreading and Concurrency: Learn how multithreading can be used to manage tasks in parallel, improving efficiency in multi-core processors used in high-frequency trading systems; The LMAX Disruptor: Explore the LMAX Disruptor, a high-performance inter-thread messaging framework designed to avoid latency caused by traditional queue-based communication. This video is a must-watch for anyone in quantitative finance, algorithmic trading, system design, and high-performance computing. If you're a developer working in HFT, C++ programming, or Java for trading systems, these cutting-edge techniques will help you optimize your trading algorithms and infrastructure to minimize latency and maximize performance.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5B4RYzVvuRY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAnR7t6alqUr7qTXZB4Lpt8oO6AgA",
+    "playLink": "https://youtu.be/5B4RYzVvuRY?si=8aTS2yoX_1Gyrnid",
+    "type": "seminar"
+  },
+  {
+    "id": 5,
+    "title": "Chat with Ernest Chan - Machine Learning for trading, AI Agents, Conditional Portfolio optimization.",
+    "description": "Join us as we sit down with Dr. Ernest Chan—physicist-turned-quantitative trader, author, and founder of PredictNow.ai—to explore the cutting edge of machine learning and AI in finance. In this episode, Dr. Chan shares invaluable insights on building robust data pipelines, engineering predictive signals, and choosing the right ML models for live trading. We also dive into practical risk management techniques, dynamic position sizing, and the role of AI agents in asset management. Whether you’re a seasoned quant or just curious about next-level trading strategies, you’ll learn about: How Dr. Chan’s physics background shapes his data-driven approach; Essential tips for feature engineering and avoiding overfitting; The unique features and workflow of PredictNow.ai; AI agents' impact on the quant industry; Maintaining a sustainable trading edge in rapidly shifting markets. Tune in for a deep dive into the future of algorithmic trading, where machine learning meets real-world portfolio management—all through the lens of one of the industry’s foremost experts.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5kmWFHWVpxA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAXMXgS-27Nhavr0Cb1TRl3ITDxPw",
+    "playLink": "https://www.youtube.com/watch?v=5kmWFHWVpxA",
+    "type": "podcast"
+  },
+  {
+    "id": 6,
+    "title" : "Introduction to Quantitative Finance Accelerator Program",
+    "description": "In this webinar, Pankaj Mani (Founder of LAQSA) and Tribhuvan Bisen (Founder of Quant Insider) provide a detailed overview of the Quant Finance domain and the Quantitative Finance Accelerator Program.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/stYrTuU7Ycs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCjT82319HH3VF9s5xNJqFd9kRG-g",
+    "playLink": "https://youtu.be/stYrTuU7Ycs?si=3-ougYmKQNavHmIW",
+    "type": "seminar"
+  },
+  {
+    "id": 7,
+    "title": "Deep Dive into Volatility Trading (Options Trading) ft. Kris Abdelmessih founder @moontower-ai",
+    "description": "In this episode, we are joined by Kristopher Abdelmessih, a seasoned options trader with over two decades of experience in the financial markets. Kris began his career on the trading floors with Susquehanna International Group (SIG), where he honed his skills in options trading and market-making. He later moved to Parallax, where he ran a relative value commodities volatility book. Beyond his trading endeavors, Kris is the author of the Moontower Blog, where he shares insights on options, trading strategies, and market dynamics.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/TpMTVFdxjQI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJKhkdnERg05-ojzUNDtpFkk5oKQ",
+    "playLink": "https://youtu.be/TpMTVFdxjQI?si=y5dE4ejXAPKMpGGQ ",
+    "type": "podcast"
+  },
+  {
+    "id": 8,
+    "title" : "Anton Vorobets, Next Generation Investment Framework",
+    "description" : "In this exclusive webinar, Anton Vorobets (Founder & CEO of Fortitudo Technologies) introduces the Next Generation Investment Framework — a powerful alternative to traditional portfolio construction methods like mean-variance optimization and Black-Litterman models.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/RqicDP6456w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArPjVbUizZwQwj5ja5Om0t5DhdAg",
+    "playLink" : "https://youtu.be/RqicDP6456w?si=Sd-7EOcw778tngx0",
+    "type": "seminar"
+  },
+  {
+    "id": 9,
+    "title" : "How to Trade Volatility Like a Hedge Fund | Dislocations & Opportunities w/ Benn Eifert",
+    "description": "Welcome everyone to today's podcast episode! I'm incredibly excited to host Benn Eifert, founder and CIO of QVR Advisors, one of the sharpest minds in volatility trading.\n\nIn this special 1 hour 20 minutes session, we'll delve deep into the fascinating and intricate world of volatility. We'll cover a wide range of essential topics, including:\n\nVolatility surface modeling and mispricings – understanding how traders interpret and exploit irregularities in implied volatility across strikes and maturities.\n\nOptions pricing theory vs. practice – exploring where theoretical models meet real-world market dynamics, and where they diverge significantly.\n\nStructural volatility flows in the market – discussing who the key players driving volatility markets are and how their activities shape pricing and opportunities.\n\nDealer and hedger dynamics – examining how dealer positions influence market volatility and the subtle mechanics behind their hedging activities.\n\nMacro and geopolitical volatility drivers – analyzing how recent geopolitical events and macroeconomic shifts are impacting volatility markets today.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/ABnXyxJe_e8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDncBF5EKXscV2H4uADEx7gcxdf2w",
+    "playLink" : "https://youtu.be/ABnXyxJe_e8?si=pgD-555hfU7GSbt6",
+    "type" : "podcast"
+  }
+]
