@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quant Insider - Quantitative Finance Ecosystem",
-  description: "360 Degrees Eco System of Quant Finance - Education, Training, Trading Technology Solutions, Risk Analytics & Hiring Services",
+  title: "Quant Insider – Master Algorithmic & Quant Finance",
+  description: "Quant Insider is a 360° ecosystem for Quant Finance — offering education, trading technology, and risk analytics to empower data-driven investors.",
 };
 
 export default function RootLayout({
