@@ -102,7 +102,7 @@ const Education = () => {
       <div className='px-5 sm:px-16 mt-10 sm:mt-14'>
         <GradualSpacing
           className="text-center text-2xl font-extrabold tracking-tighter text-black md:text-7xl font-serif"
-          text="Interview Preparation"
+          text="Quant Interview Preparation"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {interview.map((card, index) => (
@@ -122,7 +122,7 @@ const Education = () => {
       <div className='px-5 sm:px-16 mt-10 sm:mt-14'>
         <GradualSpacing
           className="text-center text-2xl font-extrabold tracking-tighter text-black md:text-7xl font-serif"
-          text="Partnership Courses"
+          text="Quantitative Finance Partnership Courses"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {partnership.map((card, index) => (
@@ -162,7 +162,7 @@ const Education = () => {
       <div className='px-5 sm:px-16 mt-10 sm:mt-16 mb-10'>
         <GradualSpacing
           className="text-center text-2xl font-extrabold tracking-tighter text-black md:text-7xl font-serif"
-          text="Other Packages"
+          text="Quant Career Services & Mentorship"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {otherPackages.map((card, index) => (

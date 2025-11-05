@@ -64,7 +64,7 @@ export default function Home() {
 
             {/* Subheading with improved spacing and responsive text */}
             <div className='text-center text-xs sm:text-base lg:text-lg tracking-tighter mt-3 lg:mt-5 max-w-3xl'>
-                <p>Empowering professionals through <b>Quant Finance education</b>, <b>algorithmic trading technology</b>, <b>risk analytics</b>, and <b>quant developer career solutions</b> for global financial institutions.</p>
+                <p>Empowering professionals through <b>quant education</b>, <b>quant finance courses</b>, <b>algo trading</b> technology, <b>quant interview preparation</b>, and <b>quant career</b> solutions to land <b>quant jobs</b> at top financial institutions.</p>
                 </div>
             </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
             >
                 <motion.img 
                     src='/landing.png' 
-                    alt='Quant Insider' 
+                    alt='Quant Insider - Quantitative Finance Education Platform for Algorithmic Trading and Quant Career Development' 
                     variants={imageVariants}
                     className='h-72 sm:h-60 md:h-60 lg:h-96 object-contain'
                 />
@@ -95,7 +95,7 @@ export default function Home() {
                     >
                         <Link href="/education" target="_blank" className="w-full">
                             <ShinyButton className="font-semibold tracking-tighter w-full py-4 px-4 sm:h-16 flex items-center justify-center">
-                                Crack Your First Quant Job
+                                Quant Interview Preparation & Training
                             </ShinyButton>
                         </Link>
                     </motion.div>
@@ -136,7 +136,7 @@ export default function Home() {
         <div className='flex flex-col items-center mt-12 sm:mt-24'>
             <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Past Events & Collaborations in Quant Finance</h2>
             <p className='text-center text-sm sm:text-base lg:text-lg mt-4 px-5 sm:px-10 max-w-4xl'>
-                We've partnered with leading institutes and organizations such as <b>IITs</b>, <b>Quantsapp</b>, and <b>BSE</b> to host <b>quantitative finance workshops</b>, <b>algorithmic trading hackathons</b>, and <b>research conferences</b> that shape the next generation of <b>quant professionals</b>.
+                We've partnered with leading institutes and organizations such as <b>IITs</b>, <b>Quantsapp</b>, and <b>BSE</b> to host <b>quantitative finance workshops</b>, <b>algo trading hackathons</b>, <b>quant training</b> programs, and <b>finance education</b> conferences that prepare students for <b>quant careers</b>.
             </p>
             <Carousel
                 plugins={[
@@ -147,11 +147,11 @@ export default function Home() {
                 className="w-full py-5 sm:py-10 sm:mt-6"
             >
                 <CarouselContent className="flex gap-8 sm:gap-20 items-center">
-                    {events.map(({ name, id, path }) => (
+                    {events.map(({ name, id, path, alt }) => (
                         <CarouselItem key={id} className="basis-1/4 lg:basis-1/5 ">
                             <img
                                 src={path}
-                                alt={name}
+                                alt={alt || name}
                                 className="h-20 sm:h-36 object-contain"
                             />
                         </CarouselItem>
@@ -163,9 +163,9 @@ export default function Home() {
 
     {/* Numerics Data */}
     <div className='mt-10 sm:mt-28'>
-        <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>The Edge in Quantitative Strategies</h2>
+        <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Quantitative Analysis & Algo Trading Strategies</h2>
         <div className='py-2 sm:py-6 lg:py-8 text-center font-semibold text-xs lg:text-lg tracking tracking-tighter px-5 sm:px-10 max-w-5xl mx-auto'>
-            <p>Our team specializes in <b>quantitative strategy design</b>, empowering traders and analysts with data-driven insights, machine learning models, and real-time <b>trading technology</b> to outperform markets.</p>
+            <p>Our team specializes in <b>quantitative analysis</b>, <b>financial modeling</b>, and <b>derivatives pricing</b>, empowering traders with <b>machine learning finance</b> solutions and real-time <b>algo trading technology</b> to outperform markets.</p>
         </div>
         <div className="px-5 lg:px-20 mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
@@ -175,7 +175,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center justify-center whitespace-pre-wrap text-xl lg:text-5xl lg:gap-6 sm:gap-3 md:gap-4 py-4 font-extrabold tracking-tighter text-transparent bg-clip-text bg-blue-600 drop-shadow-lg gap-2">
                     <span>on</span>
-                    <img src='/linkedIn_logo.svg' alt='LinkedIn' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
+                    <img src='/linkedIn_logo.svg' alt='Quant Insider LinkedIn - Quantitative Finance Community' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
                 </div>
             </div>
             <div>
@@ -185,7 +185,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center justify-center whitespace-pre-wrap text-xl lg:text-5xl lg:gap-6 sm:gap-3 md:gap-4 py-4 font-extrabold tracking-tighter text-transparent bg-clip-text bg-orange-600 drop-shadow-lg gap-2">
                     <span>Students mentored on</span>
-                    <img src='/topmate_logo.png' alt='LinkedIn' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
+                    <img src='/topmate_logo.png' alt='Quant Insider Topmate - Quant Finance Mentorship Platform' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@ export default function Home() {
                     Our Mission
                 </h3>
                 <span className="text-sm sm:text-lg">
-                    We bridge the gap between theoretical learning and real-world application by offering <b>quant finance education</b>, <b>algorithmic trading tools</b>, and <b>personalized mentorship</b>. Our goal is to help learners master the art and science of <b>quantitative finance</b> through hands-on experience and expert guidance.
+                    We bridge the gap between theoretical learning and real-world application by offering <b>quant finance courses</b>, <b>quant interview preparation</b>, <b>algo trading tools</b>, and <b>personalized mentorship</b>. Our <b>quant training</b> programs help learners master <b>quantitative finance</b>, <b>financial modeling</b>, and secure <b>quant jobs</b> through hands-on experience.
                 </span>
             </div>
             <div className="w-full lg:w-1/2 border-2 border-pink-500 rounded-lg p-8 text-center">
@@ -205,7 +205,7 @@ export default function Home() {
                     Our Vision
                 </h3>
                 <span className="text-sm sm:text-lg">
-                    To democratize access to <b>quantitative research</b>, <b>algorithmic trading</b>, and <b>data-driven finance</b>, enabling every individual to thrive as a <b>quant developer</b> or trading strategist — regardless of background or location.
+                    To democratize access to <b>quantitative analysis</b>, <b>finance education</b>, and <b>algo trading</b>, enabling every individual to build a successful <b>quant career</b> as a <b>quant developer</b>, trader, or analyst through our comprehensive <b>quant education</b> platform — regardless of background or location.
                 </span>
             </div>
         </div>
