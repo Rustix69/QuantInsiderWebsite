@@ -58,14 +58,13 @@ export default function Home() {
         <div className='px-4 sm:px-8 mt-8 lg:mt-24 flex flex-col items-center h-full'>
             {/* Main Heading - Adjusted font sizes for better responsiveness */}
             <div className='flex flex-col items-center justify-center'>
-                <div className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl gradient-title tracking-tighter text-center max-w-4xl'>
-                    Quant Insider is a 360 Degrees Eco System of Quant Finance
-                </div>
+                <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl gradient-title tracking-tighter text-center max-w-4xl'>
+                    Quant Insider — The 360° Ecosystem for Quantitative & Algorithmic Finance
+                </h1>
 
             {/* Subheading with improved spacing and responsive text */}
-            <div className='text-center text-xs sm:text-base lg:text-lg tracking-tighter flex flex-col mt-3 lg:mt-5 max-w-3xl'>
-                <p>We provide, <b>Quant Finance Educational & Training, Trading Technology Solutions,</b></p>
-                    <p><b>Risk analytics systems and Hiring Services</b> for Financial Institutions</p>
+            <div className='text-center text-xs sm:text-base lg:text-lg tracking-tighter mt-3 lg:mt-5 max-w-3xl'>
+                <p>Empowering professionals through <b>Quant Finance education</b>, <b>algorithmic trading technology</b>, <b>risk analytics</b>, and <b>quant developer career solutions</b> for global financial institutions.</p>
                 </div>
             </div>
 
@@ -125,7 +124,7 @@ export default function Home() {
                     >
                         <Link href="https://quantinsider.algobulls.com/phoenix/splash" target="_blank" className="w-full">
                             <ShinyButton className="font-semibold tracking-tighter w-full py-4 px-4 sm:h-16 flex items-center justify-center">
-                                Algo Trading Platform
+                                Explore Our Algorithmic Trading Platform
                             </ShinyButton>
                         </Link>
                     </motion.div>
@@ -135,7 +134,10 @@ export default function Home() {
 
         {/* Collaborations - Past Events */}
         <div className='flex flex-col items-center mt-12 sm:mt-24'>
-            <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Past Events</h1>
+            <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Past Events & Collaborations in Quant Finance</h2>
+            <p className='text-center text-sm sm:text-base lg:text-lg mt-4 px-5 sm:px-10 max-w-4xl'>
+                We've partnered with leading institutes and organizations such as <b>IITs</b>, <b>Quantsapp</b>, and <b>BSE</b> to host <b>quantitative finance workshops</b>, <b>algorithmic trading hackathons</b>, and <b>research conferences</b> that shape the next generation of <b>quant professionals</b>.
+            </p>
             <Carousel
                 plugins={[
                     Autoplay({
@@ -161,9 +163,9 @@ export default function Home() {
 
     {/* Numerics Data */}
     <div className='mt-10 sm:mt-28'>
-        <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>The Edge in Quantitative Strategies</h1>
-        <div className='py-2 sm:py-6 lg:py-8 text-center font-semibold text-xs lg:text-lg tracking tracking-tighter px-5 sm:px-10'>
-            <p>Our team helps you excel in quantitative strategies, positioning you as a thought leader to attract top talent, generate leads, and secure investments for growth.</p>
+        <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>The Edge in Quantitative Strategies</h2>
+        <div className='py-2 sm:py-6 lg:py-8 text-center font-semibold text-xs lg:text-lg tracking tracking-tighter px-5 sm:px-10 max-w-5xl mx-auto'>
+            <p>Our team specializes in <b>quantitative strategy design</b>, empowering traders and analysts with data-driven insights, machine learning models, and real-time <b>trading technology</b> to outperform markets.</p>
         </div>
         <div className="px-5 lg:px-20 mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
@@ -172,7 +174,7 @@ export default function Home() {
                     <span className="ml-2 text-5xl sm:text-5xl md:text-7xl lg:text-9xl">K+</span>
                 </div>
                 <div className="flex items-center justify-center whitespace-pre-wrap text-xl lg:text-5xl lg:gap-6 sm:gap-3 md:gap-4 py-4 font-extrabold tracking-tighter text-transparent bg-clip-text bg-blue-600 drop-shadow-lg gap-2">
-                    <h1>on</h1>
+                    <span>on</span>
                     <img src='/linkedIn_logo.svg' alt='LinkedIn' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
                 </div>
             </div>
@@ -182,7 +184,7 @@ export default function Home() {
                     <span className="ml-2 text-5xl sm:text-5xl md:text-7xl lg:text-9xl">+</span>
                 </div>
                 <div className="flex items-center justify-center whitespace-pre-wrap text-xl lg:text-5xl lg:gap-6 sm:gap-3 md:gap-4 py-4 font-extrabold tracking-tighter text-transparent bg-clip-text bg-orange-600 drop-shadow-lg gap-2">
-                    <h1>Students mentored on</h1>
+                    <span>Students mentored on</span>
                     <img src='/topmate_logo.png' alt='LinkedIn' className='h-5 md:h-9 sm:h-7 lg:h-12 align-bottom' />
                 </div>
             </div>
@@ -191,19 +193,19 @@ export default function Home() {
         {/* Mission/Vision Cards placeholder */}
         <div className="flex flex-col lg:flex-row justify-center gap-4 sm:gap-6 px-5 sm:px-10 mt-5 sm:mt-20">
             <div className="w-full lg:w-1/2 border-2 border-pink-500 rounded-lg p-8 text-center">
-                <h1 className="text-2xl font-extrabold bg-gradient-to-br from-pink-500 to-cyan-400 bg-clip-text text-transparent mb-4">
+                <h3 className="text-2xl font-extrabold bg-linear-to-br from-pink-500 to-cyan-400 bg-clip-text text-transparent mb-4">
                     Our Mission
-                </h1>
+                </h3>
                 <span className="text-sm sm:text-lg">
-                    We bridge the gap between theoretical learning and practical application by providing cutting-edge education, hands-on tools, and personalized guidance to help you master the art and science of quantitative finance.
+                    We bridge the gap between theoretical learning and real-world application by offering <b>quant finance education</b>, <b>algorithmic trading tools</b>, and <b>personalized mentorship</b>. Our goal is to help learners master the art and science of <b>quantitative finance</b> through hands-on experience and expert guidance.
                 </span>
             </div>
             <div className="w-full lg:w-1/2 border-2 border-pink-500 rounded-lg p-8 text-center">
-                <h1 className="text-2xl font-extrabold bg-gradient-to-br from-pink-500 to-cyan-400 bg-clip-text text-transparent mb-4">
+                <h3 className="text-2xl font-extrabold bg-linear-to-br from-pink-500 to-cyan-400 bg-clip-text text-transparent mb-4">
                     Our Vision
-                </h1>
+                </h3>
                 <span className="text-sm sm:text-lg">
-                    To democratize access to specialized knowledge, tools, and resources, enabling everyone to succeed in the competitive world of quantitative finance and algorithmic trading, regardless of their background or location.
+                    To democratize access to <b>quantitative research</b>, <b>algorithmic trading</b>, and <b>data-driven finance</b>, enabling every individual to thrive as a <b>quant developer</b> or trading strategist — regardless of background or location.
                 </span>
             </div>
         </div>
@@ -221,19 +223,20 @@ export default function Home() {
 
     {/* Testimonials */}
     <div className='mt-14 sm:mt-20 flex flex-col items-center'>
-        <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Testimonials</h1>
+        <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Testimonials</h2>
+        <p className='text-center text-sm sm:text-base lg:text-lg mt-2 text-gray-600'>What Our Students & Partners Say</p>
         <Testimonials />
     </div>
 
     {/* Contact and Meeting Section - Combined for side-by-side layout */}
     <div className='mt-10 sm:mt-20 px-4 sm:px-8 lg:px-12'>
-        <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold p-4 mb-8' id="contact-us">Get In Touch</h1>
+        <h2 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold p-4 mb-8' id="contact-us">Get In Touch</h2>
         
         {/* Container for both forms */}
         <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 justify-center'>
             {/* Contact Us Section */}
             <div className='w-full lg:w-1/2 flex flex-col items-center'>
-                <h2 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Contact Us</h2>
+                <h3 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Contact Us</h3>
                 <div className='w-full max-w-lg'>
                     <ProfileForm />
                 </div>
@@ -241,7 +244,7 @@ export default function Home() {
             
             {/* Book a Meeting Section */}
             <div className='w-full lg:w-1/2 flex flex-col items-center'>
-                <h2 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Book a Meeting</h2>
+                <h3 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Book a Meeting</h3>
                 <div className='w-full bg-sky-50 p-4 rounded-lg shadow-sm' style={{ height: '600px' }}>
                     <Calcom />
                 </div>
