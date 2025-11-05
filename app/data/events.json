@@ -2,61 +2,73 @@
     {
         "name": "iitd",
         "path": "/events/iitd.png",
+        "alt": "Quant Insider - IIT Delhi",
         "id": 0
     },
     {
         "name": "ism",
         "path": "/events/ism.png",
+        "alt": "Quant Insider - ISM Dhanbad",
         "id": 1
     },
     {
         "name": "columbiauniversity",
         "path": "/events/columbiauniversity.png",
+        "alt": "Quant Insider - Columbia University",
         "id": 2
     },
     {
         "name": "iisc",
         "path": "/events/iisc.png",
+        "alt": "Quant Insider - IISc Bangalore",
         "id": 3
     },
     {
         "name": "bits",
         "path": "/events/bits.png",
+        "alt": "Quant Insider - BITS Pilani",
         "id": 4
     },
     {
         "name": "christ",
         "path": "/events/christ.png",
+        "alt": "Quant Insider - Christ University",
         "id": 5
     },
     {
         "name": "ism",
         "path": "/events/ism.png",
+        "alt": "Quant Insider - ISM Dhanbad",
         "id": 6
     },
     {
         "name": "iitkgp",
         "path": "/events/iitkgp.png",
+        "alt": "Quant Insider - IIT Kharagpur",
         "id": 7
     },
     {
         "name": "iitd",
         "path": "/events/iitd.png",
+        "alt": "Quant Insider - IIT Delhi",
         "id": 8
     },
     {
         "name": "qapp",
         "path": "/events/qapp.png",
+        "alt": "Quant Insider - QAPP",
         "id": 9
     },
     {
         "name": "bse",
         "path": "/events/bse.png",
+        "alt": "Quant Insider - BSE",
         "id": 10
     },
     {
         "name": "nittirchy",
         "path": "/events/nittirchy.png",
+        "alt": "Quant Insider - NIT Trichy",
         "id": 11
     }
     
