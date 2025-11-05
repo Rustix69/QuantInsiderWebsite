@@ -15,8 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://quantinsider.io'),
   title: "Quant Insider – Master Algorithmic & Quant Finance",
   description: "Quant Insider is a 360° ecosystem for Quant Finance — offering education, trading technology, and risk analytics to empower data-driven investors.",
+  alternates: {
+    canonical: '/',
+  },
   keywords: [
     "quant",
     "quantitative finance",
@@ -78,28 +82,91 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const structuredData = {
+  const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    "@id": "https://quantinsider.io/#organization",
     "name": "Quant Insider",
+    "alternateName": "QI",
     "description": "Premier quantitative finance education platform offering algo trading courses, quant interview preparation, and career mentorship",
     "url": "https://quantinsider.io",
-    "logo": "https://quantinsider.io/logo.png",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://quantinsider.io/logo.png",
+      "width": 250,
+      "height": 60
+    },
+    "image": "https://quantinsider.io/landing.png",
     "sameAs": [
-      "https://www.linkedin.com/company/quantinsider"
+      "https://www.linkedin.com/company/quantinsider",
+      "https://topmate.io/quant_insider"
     ],
-    "areaServed": "Worldwide",
-    "availableLanguage": "English",
-    "keywords": "quant, quantitative finance, algorithmic trading, quant education, finance courses, quant career",
-    "offers": {
-      "@type": "EducationalOccupationalProgram",
-      "name": "Quantitative Finance Education Programs",
-      "description": "Comprehensive quant education including interview preparation, masterclasses, and algorithmic trading courses",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Quant Insider"
-      }
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "email": "contact@quantinsider.io"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Worldwide"
+    },
+    "availableLanguage": ["English"],
+    "foundingDate": "2020",
+    "keywords": "quant, quantitative finance, algorithmic trading, quant education, finance courses, quant career, algo trading, derivatives pricing",
+    "knowsAbout": [
+      "Quantitative Finance",
+      "Algorithmic Trading",
+      "Financial Modeling",
+      "Derivatives Pricing",
+      "Machine Learning in Finance",
+      "Risk Analytics"
+    ]
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://quantinsider.io/#website",
+    "name": "Quant Insider",
+    "description": "Master quantitative finance, algorithmic trading, and launch your quant career",
+    "url": "https://quantinsider.io",
+    "publisher": {
+      "@id": "https://quantinsider.io/#organization"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://quantinsider.io/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
     }
+  };
+
+  const educationalProgramSchema = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOccupationalProgram",
+    "name": "Quantitative Finance Education & Training Programs",
+    "description": "Comprehensive quant education including interview preparation, masterclasses from Goldman Sachs & Barclays experts, algorithmic trading courses, and mentorship",
+    "provider": {
+      "@id": "https://quantinsider.io/#organization"
+    },
+    "educationalCredentialAwarded": "Quant Finance Certificate",
+    "occupationalCategory": "Quantitative Analyst",
+    "timeToComplete": "P3M",
+    "offers": {
+      "@type": "Offer",
+      "category": "Education",
+      "availability": "https://schema.org/InStock"
+    },
+    "teaches": [
+      "Quantitative Finance",
+      "Algorithmic Trading",
+      "Financial Modeling",
+      "Derivatives Pricing",
+      "Machine Learning for Trading"
+    ]
   };
 
   return (
@@ -107,7 +174,15 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalProgramSchema) }}
         />
       </head>
       <body
