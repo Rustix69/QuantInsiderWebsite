@@ -6,12 +6,30 @@ import Link from "next/link";
 
 export function AlgoBulls() {
     const images = [
-        "/tradingtool/tool1.png",
-        "/tradingtool/tool4.png",
-        "/tradingtool/tool2.png",
-        "/tradingtool/tool3.png",
-        "/tradingtool/tool4.png",
-        "/tradingtool/tool5.png",
+        {
+            src: "/tradingtool/tool1.png",
+            alt: "Algorithmic trading strategies dashboard with real-time market analysis"
+        },
+        {
+            src: "/tradingtool/tool4.png",
+            alt: "Auto-connect trading strategies to Zerodha and broker accounts"
+        },
+        {
+            src: "/tradingtool/tool2.png",
+            alt: "Automated trading platform with strategy marketplace"
+        },
+        {
+            src: "/tradingtool/tool3.png",
+            alt: "Real-time algo trading execution and portfolio management"
+        },
+        {
+            src: "/tradingtool/tool4.png",
+            alt: "Connect and deploy trading strategies with broker integration"
+        },
+        {
+            src: "/tradingtool/tool5.png",
+            alt: "Advanced algorithmic trading tools and strategy backtesting"
+        },
     ];
     
     return (
