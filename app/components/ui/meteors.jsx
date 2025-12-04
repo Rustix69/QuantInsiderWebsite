@@ -7,8 +7,10 @@ export const Meteors = ({
   number = 20
 }) => {
   const [meteorStyles, setMeteorStyles] = useState([]);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
     const styles = [...new Array(number)].map(() => ({
       top: -5,
       left: Math.floor(Math.random() * window.innerWidth) + "px",
@@ -17,6 +19,8 @@ export const Meteors = ({
     }));
     setMeteorStyles(styles);
   }, [number]);
+
+  if (!isMounted) return null;
 
   return (<>
     {[...meteorStyles].map((style, idx) => (

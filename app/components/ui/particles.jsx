@@ -60,8 +60,10 @@ const Particles = ({
   const canvasSize = useRef({ w: 0, h: 0 });
   const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
   const rafID = useRef(null);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
     if (canvasRef.current) {
       context.current = canvasRef.current.getContext("2d");
     }
@@ -229,6 +231,8 @@ const Particles = ({
     });
     rafID.current = window.requestAnimationFrame(animate);
   };
+
+  if (!isMounted) return null;
 
   return (
     (<div
