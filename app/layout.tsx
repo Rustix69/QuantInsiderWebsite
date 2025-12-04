@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://quantinsider.io'),
   title: "Quant Insider – Master Algorithmic & Quant Finance",
   description: "Quant Insider is a 360° ecosystem for Quant Finance — offering education, trading technology, and risk analytics to empower data-driven investors.",
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
   alternates: {
     canonical: '/',
   },
