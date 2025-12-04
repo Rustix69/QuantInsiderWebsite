@@ -6,10 +6,22 @@ import Link from "next/link";
 
 export function GallerySlider() {
     const images = [
-        "/gallery/gal0.jpg",
-        "/gallery/gal1.jpg",
-        "/gallery/gal2.jpg",
-        "/gallery/gal3.jpg",
+        {
+            src: "/gallery/gal0.jpg",
+            alt: "Quant Insider event at IIT Delhi"
+        },
+        {
+            src: "/gallery/gal1.jpg",
+            alt: "QI workshop at IIT Delhi"
+        },
+        {
+            src: "/gallery/gal2.jpg",
+            alt: "Quant Insider conference at BSE"
+        },
+        {
+            src: "/gallery/gal3.jpg",
+            alt: "Quant Insider trading conference highlights"
+        },
     ];
     
     return (

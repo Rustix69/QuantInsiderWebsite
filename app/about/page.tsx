@@ -21,16 +21,16 @@ const About = () => {
 
             <div className="flex flex-col w-full sm:flex-row gap-5 items-center justify-center mt-16 px-5">
                 <NeonGradientCard className=" w-full sm:w-3/4 h-auto">
-                    <h1 className="text-center text-sm sm:text-3xl font-[C059]">
-                        At Quant Insider, we are redefining the landscape of quantitative finance and algorithmic trading by building a specialized startup that offers a one-stop 360-degree ecosystem. Whether you're a quant enthusiast aspiring to secure a position at leading hedge funds, investment banks, or prop trading firms, or a trader looking to automate strategies, we have the tools, expertise, and community to guide your journey.
-                    </h1>
+                    <h2 className="text-center text-sm sm:text-3xl font-[C059]">
+                        At Quant Insider, we're redefining the future of <b>quantitative finance</b>, <b>algorithmic trading</b>, and <b>risk analytics</b> by creating a 360° platform that unites <b>education</b>, <b>research</b>, and <b>technology</b>. Whether you're a <b>quant developer</b>, <b>analyst</b>, or <b>institution</b>, our tools and training help you thrive in the evolving landscape of <b>data-driven finance</b>.
+                    </h2>
                 </NeonGradientCard>
                 <div className=''>
                     <NeonGradientCard className="h-auto mt-5 block sm:hidden">
-                    <h1 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+                    <h2 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
                         Our Pillars
-                    </h1>
-                    <h1 className='text-center font-serif text-3xl mt-5 leading-none'> Education and Technology </h1>
+                    </h2>
+                    <p className='text-center font-serif text-3xl mt-5 leading-none'> Education and Technology </p>
                 </NeonGradientCard>
                 </div>
                 
@@ -59,21 +59,21 @@ const About = () => {
 
             <div className="flex flex-col sm:flex-row gap-5 items-center mt-10">
                 <NeonGradientCard className="w-full sm:w-1/4 h-auto sm:h-64 mt-5">
-                    <h1 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+                    <h3 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
                         Education Segment
-                    </h1>
-                    <h1 className='text-center font-serif text-3xl mt-5 leading-none'> Transforming Enthusiasts into Professionals </h1>
+                    </h3>
+                    <p className='text-center font-serif text-3xl mt-5 leading-none'> Transforming Enthusiasts into Professionals </p>
                 </NeonGradientCard>
 
                 <NeonGradientCard className="w-full sm:w-3/4 h-auto sm:h-64 mt-5">
-                    <h1 className="text-center text-sm sm:text-xl font-[C059]">
-                        Our education platform is designed to bridge the gap between theoretical knowledge and real-world application. We empower aspiring quants with industry-relevant skills, personalized guidance, and hands-on experience to prepare them for top roles in hedge funds, investment banks, prop trading firms, and market-making desks. Insider, we are redefining the landscape of quantitative finance and algorithmic trading by building a specialized startup that offers a one-stop 360-degree ecosystem. Whether you're a quant enthusiast aspiring to secure a position at leading hedge funds, investment banks, or prop trading firms, or a trader looking to automate strategies, we have the tools, expertise, and community to guide your journey.
-                    </h1>
+                    <p className="text-center text-sm sm:text-xl font-[C059]">
+                        Our education platform is designed to bridge the gap between theoretical knowledge and real-world application. We empower aspiring quants with industry-relevant skills, personalized guidance, and hands-on experience to prepare them for top roles in hedge funds, investment banks, prop trading firms, and market-making desks.
+                    </p>
                 </NeonGradientCard>
             </div>
 
             {/* Key Offerings */}
-            <h1 className='font-[C059] font-extrabold text-5xl sm:text-6xl text-center mt-10 '>Key Offerings</h1>
+            <h2 className='font-[C059] font-extrabold text-5xl sm:text-6xl text-center mt-10 '>Key Offerings</h2>
             <div className='grid grid-cols-1 sm:grid-cols-4 text-center gap-4 mt-10 px-5 sm:px-20'>
                 <ShineBorder
                     className="relative flex h-auto flex-col py-10 items-center justify-around rounded-lg border bg-background md:shadow-xl"
@@ -126,20 +126,20 @@ const About = () => {
 
             <div className="flex flex-col w-full sm:flex-row gap-5 items-center mt-10 sm:px-20">
                 <NeonGradientCard className="sm:w-1/4 sm:h-52 mt-5">
-                    <h1 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+                    <h3 className="text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
                         Technology Segment
-                    </h1>
-                    <h1 className='text-center font-serif text-3xl mt-5 leading-none'> Democratizing Algorithmic Trading </h1>
+                    </h3>
+                    <p className='text-center font-serif text-3xl mt-5 leading-none'> Democratizing Algorithmic Trading </p>
                 </NeonGradientCard>
 
                 <NeonGradientCard className="sm:w-3/4 sm:h-52 mt-5 flex justify-center items-center">
-                    <h1 className="text-center text-sm sm:text-xl font-[C059] leading-relaxed">
+                    <p className="text-center text-sm sm:text-xl font-[C059] leading-relaxed">
                         Our technology division is designed to empower traders—both retail and institutional—with state-of-the-art tools to build, optimize, and execute trading strategies. By integrating Generative AI and algorithmic trading platforms, we simplify the complexities of trading and enhance efficiency.
-                    </h1>
+                    </p>
                 </NeonGradientCard>
             </div>
 
-            <h1 className='font-[C059] font-extrabold text-5xl text-center mt-10 '>Key Offerings</h1>
+            <h2 className='font-[C059] font-extrabold text-5xl text-center mt-10 '>Key Offerings</h2>
             <div className='grid grid-cols-1 sm:grid-cols-4 text-center gap-4 mt-10 px-5 sm:px-20 mb-20'>
                 <ShineBorder
                     className="relative flex h-auto flex-col py-10 items-center justify-around rounded-lg border bg-background md:shadow-xl"

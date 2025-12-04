@@ -3,8 +3,13 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
+interface ImageData {
+  src: string;
+  alt?: string;
+}
+
 interface ImagesSliderProps {
-  images: string[];
+  images: string[] | ImageData[];
   children?: React.ReactNode;
   overlay?: boolean;
   overlayClassName?: string;
@@ -43,10 +48,11 @@ export const ImagesSlider: React.FC<ImagesSliderProps> = ({
   const loadImages = () => {
     setLoading(true);
     const loadPromises = images.map((image) => {
+      const imageSrc = typeof image === 'string' ? image : image.src;
       return new Promise<string>((resolve, reject) => {
         const img = new Image();
-        img.src = image;
-        img.onload = () => resolve(image);
+        img.src = imageSrc;
+        img.onload = () => resolve(imageSrc);
         img.onerror = reject;
       });
     });
@@ -136,6 +142,7 @@ export const ImagesSlider: React.FC<ImagesSliderProps> = ({
           <motion.img
             key={currentIndex}
             src={loadedImages[currentIndex]}
+            alt={typeof images[currentIndex] === 'string' ? '' : images[currentIndex].alt || ''}
             initial="initial"
             animate="visible"
             exit={direction === "up" ? "upExit" : "downExit"}
