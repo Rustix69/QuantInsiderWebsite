@@ -175,6 +175,48 @@ export default function RootLayout({
     ]
   };
 
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Qaunt Insider",
+    "image": "https://www.quantinsider.io/",
+    "@id": "",
+    "url": "https://www.quantinsider.io/",
+    "telephone": "+91 8349489231",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1st Floor, 264-265, Dr Annie Besant Rd, Municipal Colony, Worli Shivaji Nagar, Worli",
+      "addressLocality": "Mumbai",
+      "postalCode": "400030",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.0120629,
+      "longitude": 72.82140629999999
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "12:00",
+      "closes": "21:00"
+    },
+    "sameAs": [
+      "https://x.com/QuantInsider_IQ",
+      "https://www.instagram.com/quantinsider.io/",
+      "https://www.youtube.com/@QuantInsider",
+      "linkedin.com/company/quant-insider",
+      "https://in.pinterest.com/quantinsider/",
+      "https://www.quantinsider.io/"
+    ]
+  };
+
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
   return (
@@ -210,6 +252,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalProgramSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
       <body
