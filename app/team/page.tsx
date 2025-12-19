@@ -2,7 +2,6 @@
 
 import React from 'react';
 import TeamCard from '@/app/components/TeamCard';
-import GradualSpacing from '@/app/components/ui/gradual-spacing';
 import { useRouter } from 'next/navigation';
 
 const Team = () => {
@@ -51,131 +50,84 @@ const Team = () => {
       name: "Dr. Nisha Godani",
       role: "Faculty",
       description: "Assistant professor at Medicaps University with a PhD in mathematics from Dayalbagh Educational Institute. Specializes in Non-Manifold Topologies on Lorentz Manifolds with 50+ research papers. Has 8+ years of teaching experience and qualified for NET and GATE examinations with All India rank 40 and 90 respectively."
+    },
+    {
+      image: "/teams/nick.png",
+      name: "Dr. Nick Firoozye",
+      role: "Instructor",
+      description: "Dr. Nick Firoozye is a mathematician with over 20 years of experience in the Quant finance industry, spanning both buy-side and sell-side firms. He began his career at Lehman Brothers, where he worked on MBS/ABS modeling and later moved into senior roles in Quant Research and Strategy at Goldman Sachs and Deutsche Bank. His expertise also extended to asset management and hedge funds, with positions at Sanford Bernstein, Citadel, and Exodus Point, focusing on areas such as Quantitative Strategy, Relative Value Trading, and Asset Allocation."
     }
   ];
 
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-50 to-gray-100 overflow-hidden">
-      {/* Team Hero Section */}
-      <div className="w-full bg-gradient-to-r from-indigo-900 via-blue-900 to-indigo-800 text-white py-16 md:py-24 relative">
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/4 left-0 top-0 w-full h-full bg-indigo-700 opacity-10"></div>
-          <div className="absolute transform rotate-12 translate-y-1/2 translate-x-1/4 right-0 bottom-0 w-full h-full bg-blue-700 opacity-10"></div>
-        </div>
-        <div className="container mx-auto px-5 sm:px-16 relative z-10">
-          <div className="text-center mb-12">
-            <h4 className="font-mono text-indigo-300 tracking-widest mb-2">MEET THE EXPERTS</h4>
-            <h1 className="text-5xl md:text-7xl font-extrabold font-serif tracking-tight mb-6">
-              Our <span className="text-indigo-400">Team</span>
-            </h1>
-            <div className="w-24 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 mx-auto mb-8 rounded-full"></div>
-            <p className="max-w-2xl mx-auto text-lg md:text-xl text-indigo-100 leading-relaxed font-light">
-              At Quant Insider, we've assembled a world-class team of quantitative finance experts, 
-              developers, and industry veterans dedicated to revolutionizing algorithmic trading.
-            </p>
-          </div>
-        </div>
+    <div className="flex flex-col items-center min-h-screen pb-20">
+      
+      {/* Simple Header */}
+      <div className="w-full text-center pt-24 pb-12 px-5">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-4">
+          Our Team
+        </h1>
+        <p className="max-w-2xl mx-auto text-lg text-gray-600 font-light">
+          Meet the experts, developers, and industry veterans dedicated to revolutionizing algorithmic trading.
+        </p>
       </div>
 
-      {/* Stats Section */}
-      <div className="w-full py-8 bg-white">
-        <div className="container mx-auto grid grid-cols-3 gap-4 px-6">
-          <div className="text-center p-4">
-            <h3 className="text-4xl font-bold text-indigo-600 mb-2">5000+</h3>
-            <p className="text-gray-600 font-medium">Mentored Individuals</p>
-          </div>
-          <div className="text-center p-4">
-            <h3 className="text-4xl font-bold text-indigo-600 mb-2">15+</h3>
-            <p className="text-gray-600 font-medium">Years Experience</p>
-          </div>
-          <div className="text-center p-4">
-            <h3 className="text-4xl font-bold text-indigo-600 mb-2">6+</h3>
-            <p className="text-gray-600 font-medium">Premier Institutions</p>
+      <div className="container mx-auto px-5 max-w-6xl space-y-20">
+        
+        {/* Leadership Team */}
+        <div>
+          <h2 className="text-2xl font-bold text-center text-gray-900 mb-8 tracking-tight">Leadership</h2>
+          <div className="flex justify-center">
+            <div className="w-full max-w-sm">
+              {leadershipTeam.map((member, index) => (
+                <TeamCard
+                  key={index}
+                  image={member.image}
+                  name={member.name}
+                  role={member.role}
+                  description={member.description}
+                  imageSize="small"
+                />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Leadership Team */}
-      <div className="w-full px-5 sm:px-16 mt-16">
-        <GradualSpacing
-          className="text-center text-3xl font-extrabold tracking-tighter text-indigo-800 md:text-6xl font-serif mb-4"
-          text="Leadership"
-        />
-        <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
-        <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
-          {leadershipTeam.map((member, index) => (
-            <div key={index} className="max-w-xl mx-auto">
+        {/* Advisory Board */}
+        <div>
+          <h2 className="text-2xl font-bold text-center text-gray-900 mb-8 tracking-tight">Advisory Board</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {advisoryBoard.map((member, index) => (
               <TeamCard
+                key={index}
                 image={member.image}
                 name={member.name}
                 role={member.role}
                 description={member.description}
-                imageSize="small"
               />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Advisory Board */}
-      <div className="w-full px-5 sm:px-16 mt-24">
-        <GradualSpacing
-          className="text-center text-3xl font-extrabold tracking-tighter text-indigo-800 md:text-6xl font-serif mb-4"
-          text="Advisory Board"
-        />
-        <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {advisoryBoard.map((member, index) => (
-            <TeamCard
-              key={index}
-              image={member.image}
-              name={member.name}
-              role={member.role}
-              description={member.description}
-            />
-          ))}
+        {/* Core Team */}
+        <div>
+          <h2 className="text-2xl font-bold text-center text-gray-900 mb-8 tracking-tight">Core Team & Faculty</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {coreTeam.map((member, index) => (
+              <TeamCard
+                key={index}
+                image={member.image}
+                name={member.name}
+                role={member.role}
+                description={member.description}
+              />
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Core Team */}
-      <div className="w-full px-5 sm:px-16 mt-24 mb-24">
-        <GradualSpacing
-          className="text-center text-3xl font-extrabold tracking-tighter text-indigo-800 md:text-6xl font-serif mb-4"
-          text="Core Team"
-        />
-        <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {coreTeam.map((member, index) => (
-            <TeamCard
-              key={index}
-              image={member.image}
-              name={member.name}
-              role={member.role}
-              description={member.description}
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* Bottom Banner */}
-      <div className="w-full bg-gradient-to-r from-indigo-900 to-purple-900 py-12 text-white">
-        <div className="container mx-auto text-center px-5">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 font-serif">Join Our Vibrant Ecosystem</h2>
-          <p className="max-w-2xl mx-auto text-indigo-100 mb-6">
-            Become part of Quant Insider's mission to democratize access to advanced education, 
-            Algo trading technologies, and one-on-one mentorship in quantitative finance.
-          </p>
-          <button 
-            onClick={() => router.push('/#contact-us')} 
-            className="px-8 py-3 bg-white text-indigo-900 font-semibold rounded-full hover:bg-indigo-100 transition duration-300"
-          >
-            Get in Touch
-          </button>
-        </div>
       </div>
     </div>
   );
 };
 
 export default Team;
-

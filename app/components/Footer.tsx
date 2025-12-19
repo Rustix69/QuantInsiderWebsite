@@ -1,6 +1,6 @@
 "use client";
 
-import { Linkedin, Twitter, Instagram, MapPin, Youtube } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, MapPin, Youtube, Facebook } from 'lucide-react';
 import Link from 'next/link';
 
 export const Footer = () => {
@@ -71,6 +71,12 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <Youtube size={20} />
+                            </a>
+                            <a href="https://www.facebook.com/quantinsider/"
+                                className="text-white hover:text-gray-300 transition-colors"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <Facebook size={20} />
                             </a>
                         </div>
                     </div>
