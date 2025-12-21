@@ -59,7 +59,7 @@ export default function Home() {
             {/* Main Heading - Adjusted font sizes for better responsiveness */}
             <div className='flex flex-col items-center justify-center'>
                 <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl gradient-title tracking-tighter text-center max-w-4xl'>
-                    Quant Insider — The 360° Ecosystem for Quantitative & Algorithmic Finance
+                    Quant Insider — The 360° Ecosystem for Quantiative finance and Algorithmic trading
                 </h1>
 
             {/* Subheading with improved spacing and responsive text */}
